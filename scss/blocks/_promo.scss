@@ -1,0 +1,47 @@
+.promo {
+    text-align: center;
+    padding: 82px 0px;
+    position: relative;
+    &__title {
+        max-width: 804px;
+        margin: 0 auto;
+    }
+    &__descr {
+        max-width: 484px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    &__buttons-group {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 80px;
+    }
+    &__message {
+        position: absolute;
+        top: 254px;
+        left: 209px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $icon_main;
+    }
+    &__lightning {
+        position: absolute;
+        top: 302px;
+        right: 169px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $icon_main;
+    }
+
+}
