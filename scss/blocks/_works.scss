@@ -55,29 +55,29 @@
 @media (max-width: 1200px) {
     .works {
         &__tabs {
-            max-width: 800px;
+            max-width: 768px;
         }
         &__img {
-            max-width: 800px;
+            max-width: 768px;
         }
         &__wrapper-2-imgs {
             flex-direction: column;
         }
         &__img_1 {
-            max-width: 800px;
+            max-width: 768px;
         }
         &__img_2 {
-            width: 800px;
+            width: 768px;
         }
         &__img_3 {
-            max-width: 800px;
+            max-width: 768px;
         }
         &__img_4 {
-            width: 800px;
+            width: 768px;
         }
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .works {
         &__tabs {
             max-width: 576px;
@@ -117,10 +117,10 @@
             width: 350px;
         }
         &__img_3 {
-            max-width: 576px;
+            max-width: 350px;
         }
         &__img_4 {
-            width: 576px;
+            width: 350px;
         }
     }
 }

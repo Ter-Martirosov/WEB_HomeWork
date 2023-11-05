@@ -73,3 +73,27 @@
         background: $icon_main;
     }
 }
+
+
+
+
+@media (max-width: 1200px) {
+    .chad {
+        &__reward {
+            display: none;
+        }
+        &__card {
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            max-width: 800px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .chad {
+        &__Gigachad-img {
+            max-width: 300px;
+        }
+    }
+}
