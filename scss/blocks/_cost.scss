@@ -2,6 +2,10 @@
     text-align: center;
     padding: 120px 0px;
     position: relative;
+    &__content {
+        display: inline-flex;
+        flex-direction: column;
+    }
     &__selector {
         margin-top: 80px;
         display: inline-flex;
@@ -59,7 +63,7 @@
         margin-top: 40px;
     }
     &__approximate {
-        display: flex;
+        display: inline-flex;
         width: 400px;
         padding: 40px 24px;
         flex-direction: column;
@@ -68,7 +72,9 @@
         border-radius: 0px 0px 16px 16px;
         border: 1px solid #CCC;
         background: $white_main;
-        margin-left: 380px;
+        margin-left: 24px;
+        margin-top: -8px;
+        z-index: -1;
     }
     &__approximate-title {
         color: $black_main;
@@ -97,6 +103,12 @@
         font-style: normal;
         font-weight: 600;
         line-height: 24px; /* 120% */
+    }
+    &__selector-btn {
+        width: 250px;
+    }
+    &__approximate-btn {
+        width: 200px;
     }
     &__button-2 {
         width: 352px;
@@ -127,5 +139,44 @@
         flex-shrink: 0;
         border-radius: 10000px;
         background: $icon_main;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .cost {
+        &__programmer {
+            display: none;
+        }
+        &__clock {
+            display: none;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .cost {
+        &__selector {
+            max-width: 300px;
+        }
+        &__approximate {
+            max-width: 250px;
+        }
+        &__selection-work {
+            width: 100%;
+        }
+        &__selection-project {
+            width: 100%;
+        }
+        &__button-1 {
+            width: 100%;
+        }
+        &__button-2 {
+            width: 100%;
+        }
     }
 }
