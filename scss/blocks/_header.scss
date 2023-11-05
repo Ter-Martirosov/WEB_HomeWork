@@ -76,15 +76,15 @@
     }
 }
 
-  @media (max-width: 800px) {
+@media (max-width: 800px) {
     .header {
       &__empty {
         width: 20px;
       }
     }
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .header {
       &__content {
         flex-direction: column;
@@ -100,4 +100,4 @@
         font-size: 12px;
       }
     }
-  }
+}
