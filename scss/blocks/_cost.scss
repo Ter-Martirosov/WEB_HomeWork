@@ -29,10 +29,14 @@
     &__selection-work {
         padding: 12px 16px;
         width: 400px;
+        border-radius: 8px;
+        border: 1px solid var(--dbdbdb-stroke, #DBDBDB);
     }
     &__selection-project {
         padding: 12px 16px;
         width: 400px;
+        border-radius: 8px;
+        border: 1px solid var(--dbdbdb-stroke, #DBDBDB);
     }
     &__checkbox {
         display: flex;
