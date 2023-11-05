@@ -59,3 +59,45 @@
         background: $icon_main;
     }
 }
+
+
+
+
+
+@media (max-width: 1200px) {
+    .header {
+      &__programmer-wrapper {
+        display: none;
+      }
+    }
+
+    .container {
+      max-width: 90%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .header {
+      &__empty {
+        width: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      &__content {
+        flex-direction: column;
+        row-gap: 16px;
+      }
+      &__empty {
+        display: none;
+      }
+      &__list {
+        gap: 20px;
+      }
+      &__list-item {
+        font-size: 12px;
+      }
+    }
+  }
