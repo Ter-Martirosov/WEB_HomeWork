@@ -84,3 +84,45 @@
         line-height: 24px; /* 100% */
     }
 }
+
+
+
+@media (max-width: 1200px) {
+    .services {
+        &__type {
+            gap: 28px;
+        }
+        &__title {
+            font-size: 36px;
+        }
+        &__descr-text {
+            font-size: 10px;
+        }
+        &__price {
+            font-size: 12px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .services {
+        &__type {
+            gap: 14px;
+        }
+        &__title {
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width: 630px) {
+    .services {
+        height: auto;
+        &__content {
+            flex-direction: column;
+            align-items: normal;
+        }
+        &__descr {
+            flex-direction: row;
+            align-items: normal;
+        }
+    }
+}
