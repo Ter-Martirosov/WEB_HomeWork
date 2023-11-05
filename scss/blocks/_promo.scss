@@ -45,3 +45,27 @@
     }
 
 }
+
+@media (max-width: 1200px) {
+    .promo {
+        &__lightning {
+            display: none;
+        }
+        &__message {
+            display: none;
+        }
+    }
+}
+    @media (max-width: 768px) {
+        .promo {
+            padding: 40px 0px 80px 0px;
+            &__title {
+                font-size: 40px;
+                line-height: 40px;
+            }
+            &__buttons-group {
+                flex-direction: column;
+                width: 100%;
+            }
+        }
+    }
